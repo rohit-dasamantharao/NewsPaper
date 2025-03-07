@@ -1,0 +1,25 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+footer {
+    background-color: #f8f9fa;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    padding: 10px;
+}
+
+h2 {
+    text-align: center;
+}
+
+#fileInfo {
+    margin-top: 20px;
+    text-align: center;
+    font-weight: bold;
+}
+
+#logo{
+    height: 20px;
+}
