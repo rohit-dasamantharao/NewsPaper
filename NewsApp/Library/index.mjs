@@ -12,9 +12,9 @@ async function main()
     //refine contents from the paper
     //Verify them
     //Post them to the website
-    const output = await getTextFromImage("../server/public/images/page1.png");
+    const output = await getTextFromImage("./images/minipage1.png");
     console.log(output.data.box);
     // Run the function to draw bounding boxes
-    convertHocrToImage("../server/public/images/page1.png","../server/public/images/Outputpage1.png",output.data.hocr);
+    convertHocrToImage("./images/minipage1.png","../server/public/images/Outputpage1.png",output.data.hocr);
 }
 await main();
